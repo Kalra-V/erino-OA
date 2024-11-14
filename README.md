@@ -3,8 +3,8 @@
 ## Instructions on how to run the code:
 1. Clone the repository:
 ```
-git clone <>
-cd <>
+git clone https://github.com/Kalra-V/erino-OA.git
+cd erino-OA
 ```
 
 2. Install dependencies in the backend folder:
