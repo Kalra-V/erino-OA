@@ -2,10 +2,10 @@ import Contact from "../models/contact.model.js";
 
 export const getContacts = async (req, res) => {
     try {
-        const contact = await Contact.find();
+        const contacts = await Contact.find();
         res.status(200).json({
             message: "getContacts controller working.",
-            contact
+            contacts
         })
     } catch (error) {
         console.log("Error in getContacts controller: ", error.message);
